@@ -4,6 +4,9 @@
  */
 package view;
 
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author ESCOLA
@@ -26,71 +29,15 @@ public class JFLogin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        buttonGroup1 = new javax.swing.ButtonGroup();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jTextField1 = new javax.swing.JTextField();
+        jTextFieldwitiin = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jPasswordField1 = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
-        jPanel3 = new javax.swing.JPanel();
+        jPasswordFieldSENHA = new javax.swing.JPasswordField();
+        jButtonentrar = new javax.swing.JButton();
         jLabel13 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/evert.png"))); // NOI18N
-        jLabel4.setText("jLabel4");
-
-        jLabel5.setText("jLabel5");
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dddddd.png"))); // NOI18N
-        jLabel6.setText("jLabel6");
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/cadeado2.png"))); // NOI18N
-
-        jScrollPane1.setViewportView(jTextPane1);
-
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/GGG.png"))); // NOI18N
-        jLabel8.setMaximumSize(new java.awt.Dimension(90, 16));
-        jLabel8.setMinimumSize(new java.awt.Dimension(900, 16));
-
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/GGG.png"))); // NOI18N
-        jLabel9.setText("jLabel9");
-
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/PPPPPPP.png"))); // NOI18N
-        jLabel11.setText("jLabel11");
-
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/PPPPPPP.png"))); // NOI18N
-        jLabel12.setText("jLabel12");
-
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/witiin.jpg"))); // NOI18N
-        jLabel7.setText("jLabel7");
-
-        jPanel2.setBackground(new java.awt.Color(0, 153, 255));
-
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fffffffffffffff.png"))); // NOI18N
-        jLabel14.setText("jLabel14");
-
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/garotoo.png"))); // NOI18N
-        jLabel16.setText("jLabel16");
-
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/WPIC.png"))); // NOI18N
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Autêntricaçâo");
@@ -100,13 +47,12 @@ public class JFLogin extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(204, 255, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jTextField1.setText("witiindugera");
-        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+        jTextFieldwitiin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField1ActionPerformed(evt);
+                jTextFieldwitiinActionPerformed(evt);
             }
         });
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 170, -1));
+        jPanel1.add(jTextFieldwitiin, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 50, 180, 20));
 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Usuário");
@@ -116,30 +62,32 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel2.setText("Senha");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
 
-        jPasswordField1.setText("321654");
-        jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
+        jPasswordFieldSENHA.setText("witor");
+        jPasswordFieldSENHA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jPasswordField1ActionPerformed(evt);
+                jPasswordFieldSENHAActionPerformed(evt);
             }
         });
-        jPanel1.add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 170, 20));
+        jPanel1.add(jPasswordFieldSENHA, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, 180, 20));
 
-        jButton1.setText("entrar");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 463, 280, 30));
-
-        jPanel3.setBackground(new java.awt.Color(0, 0, 0));
-        jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 0, 120, 150));
+        jButtonentrar.setText("entrar");
+        jButtonentrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonentrarActionPerformed(evt);
+            }
+        });
+        jPanel1.add(jButtonentrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 480, 280, 30));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/wwwwwwwwwwwwwww.png"))); // NOI18N
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, -1, -1));
+        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, -1, -1));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/fffffffffffffff.png"))); // NOI18N
         jLabel15.setText("jLabel15");
-        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 150, -1, 460));
+        jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 150, -1, 460));
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/qqqwww.png"))); // NOI18N
         jLabel17.setText("jLabel17");
-        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, -30, 210, -1));
+        jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, -10, 210, -1));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 520, 610));
 
@@ -147,13 +95,31 @@ public class JFLogin extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
+    private void jPasswordFieldSENHAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordFieldSENHAActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jPasswordField1ActionPerformed
+    }//GEN-LAST:event_jPasswordFieldSENHAActionPerformed
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextFieldwitiinActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldwitiinActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }//GEN-LAST:event_jTextFieldwitiinActionPerformed
+
+    private void jButtonentrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonentrarActionPerformed
+        // TODO add your handling code here:
+        String usuario = jTextFieldwitiin.getText();
+        String senha = jPasswordFieldSENHA.getText ();
+        
+        if(usuario.equals("witiin") &&
+         senha.equals("senha")){
+        Main main = new Main();
+        main.setExtendedState(JFrame.MAXIMIZED_BOTH);
+        main.setVisible(true);
+        dispose();
+     
+     }else{
+        JOptionPane.showMessageDialog
+        (null, "login ou senha invalidos!");
+      }
+    }//GEN-LAST:event_jButtonentrarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -192,31 +158,14 @@ public class JFLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.ButtonGroup buttonGroup1;
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButtonentrar;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JPanel jPanel3;
-    private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextPane jTextPane1;
+    private javax.swing.JPasswordField jPasswordFieldSENHA;
+    private javax.swing.JTextField jTextFieldwitiin;
     // End of variables declaration//GEN-END:variables
 }
