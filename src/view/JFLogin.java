@@ -47,6 +47,7 @@ public class JFLogin extends javax.swing.JFrame {
         jPanel1.setForeground(new java.awt.Color(204, 255, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        jTextFieldwitiin.setText("witiin");
         jTextFieldwitiin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextFieldwitiinActionPerformed(evt);
@@ -62,7 +63,7 @@ public class JFLogin extends javax.swing.JFrame {
         jLabel2.setText("Senha");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 80, -1, -1));
 
-        jPasswordFieldSENHA.setText("witor");
+        jPasswordFieldSENHA.setText("SENHA");
         jPasswordFieldSENHA.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordFieldSENHAActionPerformed(evt);
